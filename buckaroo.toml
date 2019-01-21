@@ -1,0 +1,37 @@
+targets = [ "//:accumulators" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-bind"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-foreach"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-fusion"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-parameter"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-ublas"
+version = "branch=master"
