@@ -1,4 +1,4 @@
-manifest = "c7cc47382aab133036b0dbaf9f763b0709e41c511d2618273b2fc2c0f4732ad7"
+manifest = "c6c6307c135733d0f1dde3f26fca45a775deafad1433e57b1fc6beffd30767c9"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-array"
@@ -23,6 +23,10 @@ target = "//:fusion"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-mpl"
 target = "//:mpl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric-conversion"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-parameter"
@@ -76,6 +80,10 @@ revision = "6915e064beb2d9da0cd8f644ee74c6946042bf13"
 versions = [ "branch=master" ]
 revision = "706a76db5d04f34aeca5a2894ce6060e9044348e"
 
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "branch=master" ]
+revision = "5badcf5b232a15e89d0701bef687ffbe70398696"
+
 [lock."github.com/buckaroo-pm/boost-iterator"]
 versions = [ "branch=master" ]
 revision = "c84fc34d0f6386edb15b0cb854a12864b6f15232"
@@ -83,6 +91,10 @@ revision = "c84fc34d0f6386edb15b0cb854a12864b6f15232"
 [lock."github.com/buckaroo-pm/boost-mpl"]
 versions = [ "branch=master" ]
 revision = "6493fcda0f5cd2ee595346ca48ff495db9fa74d5"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "branch=master" ]
+revision = "35fa920e0b53c124b0b5972b1802032933c71fca"
 
 [lock."github.com/buckaroo-pm/boost-parameter"]
 versions = [ "branch=master" ]

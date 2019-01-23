@@ -20,7 +20,7 @@ os:
   - osx
 
 env:
-  - BUCKAROO_VERSION=buckaroo-redux-alpha-11
+  - BUCKAROO_VERSION=buckaroo-redux-alpha-13
 
 cache:
   directories:
