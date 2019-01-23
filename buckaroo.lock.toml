@@ -1,4 +1,4 @@
-manifest = "746c178725f7a4b331fac591073f2d2df3c168bd061172ad01917b043cb085b7"
+manifest = "c7cc47382aab133036b0dbaf9f763b0709e41c511d2618273b2fc2c0f4732ad7"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-array"
@@ -36,13 +36,9 @@ target = "//:range"
 package = "github.com/buckaroo-pm/boost-ublas"
 target = "//:ublas"
 
-[lock."github.com/buckaroo-pm/boost-align"]
-versions = [ "branch=master" ]
-revision = "6587b84e4fb0711bd7d0930b415ca7937e72021b"
-
 [lock."github.com/buckaroo-pm/boost-array"]
 versions = [ "branch=master" ]
-revision = "ea0eab9a8cf538aa81a7d53f1762a5ff7e628e73"
+revision = "f326ae1e1b93216ce40e098a2baed4cc152d06ef"
 
 [lock."github.com/buckaroo-pm/boost-assert"]
 versions = [ "branch=master" ]
@@ -59,10 +55,6 @@ revision = "4dcd765d7933cb9419d9120cbf8df7d83e38f9db"
 [lock."github.com/buckaroo-pm/boost-config"]
 versions = [ "branch=master" ]
 revision = "60c77dd14f5bac2b9e6c59f308b7ad20d31f70ab"
-
-[lock."github.com/buckaroo-pm/boost-container"]
-versions = [ "branch=master" ]
-revision = "bb4226c58e17f8880779f19559a50e497f2bfcba"
 
 [lock."github.com/buckaroo-pm/boost-core"]
 versions = [ "branch=master" ]
@@ -84,45 +76,17 @@ revision = "6915e064beb2d9da0cd8f644ee74c6946042bf13"
 versions = [ "branch=master" ]
 revision = "706a76db5d04f34aeca5a2894ce6060e9044348e"
 
-[lock."github.com/buckaroo-pm/boost-integer"]
-versions = [ "branch=master" ]
-revision = "5badcf5b232a15e89d0701bef687ffbe70398696"
-
-[lock."github.com/buckaroo-pm/boost-intrusive"]
-versions = [ "branch=master" ]
-revision = "d812ed3ac7c7d573249e49fe23aa12339629c730"
-
 [lock."github.com/buckaroo-pm/boost-iterator"]
 versions = [ "branch=master" ]
 revision = "c84fc34d0f6386edb15b0cb854a12864b6f15232"
-
-[lock."github.com/buckaroo-pm/boost-lexical_cast"]
-versions = [ "branch=master" ]
-revision = "9f6d656caf4b0037327c426219de6ef676a2ccdc"
-
-[lock."github.com/buckaroo-pm/boost-math"]
-versions = [ "branch=master" ]
-revision = "83091dd8c4b3939e58a3619104504cdda212673a"
-
-[lock."github.com/buckaroo-pm/boost-move"]
-versions = [ "branch=master" ]
-revision = "3f0711cabd643ed902ff3ae3d6746ba2f7256e4e"
 
 [lock."github.com/buckaroo-pm/boost-mpl"]
 versions = [ "branch=master" ]
 revision = "6493fcda0f5cd2ee595346ca48ff495db9fa74d5"
 
-[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
-versions = [ "branch=master" ]
-revision = "35fa920e0b53c124b0b5972b1802032933c71fca"
-
 [lock."github.com/buckaroo-pm/boost-parameter"]
 versions = [ "branch=master" ]
 revision = "292c3e063e8d44d4a967b70939a8a56d6c48d297"
-
-[lock."github.com/buckaroo-pm/boost-predef"]
-versions = [ "branch=master" ]
-revision = "73def0812b7235e0312079c729342787819bf1d5"
 
 [lock."github.com/buckaroo-pm/boost-preprocessor"]
 versions = [ "branch=master" ]
@@ -135,10 +99,6 @@ revision = "10482c9459133c139137e459d8e1051246866983"
 [lock."github.com/buckaroo-pm/boost-serialization"]
 versions = [ "branch=master" ]
 revision = "9e8d936f28b7a384aa6988875967bc43ca665286"
-
-[lock."github.com/buckaroo-pm/boost-smart_ptr"]
-versions = [ "branch=master" ]
-revision = "7a147d3e6bead2fba47b60365fe1ae0c308768d5"
 
 [lock."github.com/buckaroo-pm/boost-static_assert"]
 versions = [ "branch=master" ]
@@ -162,7 +122,7 @@ revision = "e8cb7bc76c55f02a24f824fecf5cdf0629dc3aa4"
 
 [lock."github.com/buckaroo-pm/boost-ublas"]
 versions = [ "branch=master" ]
-revision = "cf1ae2fe9b3044d185d89cebc3befab0b0d9e691"
+revision = "1cf282fd9cca5c81388251c25c65adc0d3f8cfb3"
 
 [lock."github.com/buckaroo-pm/boost-utility"]
 versions = [ "branch=master" ]
