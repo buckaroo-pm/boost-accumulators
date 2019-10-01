@@ -1,0 +1,42 @@
+targets = [ "//:accumulators" ]
+
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-bind"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-foreach"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-fusion"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-parameter"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+version = "1.66.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-ublas"
+version = "1.66.0"
